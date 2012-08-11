@@ -12,7 +12,6 @@ class BytePtr(var size : Int = 1, var sizeIncrement : Int = 1) {
     b.put(buf)
     b.position(pos)
     buf = b
-    println(size)
   }
 
   /**
