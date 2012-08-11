@@ -1,5 +1,3 @@
-package com.joepritzel.bf
-
 import java.nio.ByteBuffer
 
 class BytePtr(var size : Int = 1, var sizeIncrement : Int = 1) {

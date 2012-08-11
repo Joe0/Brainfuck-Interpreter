@@ -1,5 +1,3 @@
-package com.joepritzel.bf
-
 import scala.io.Source
 
 object Interpreter {
