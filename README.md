@@ -1,15 +1,14 @@
 # Brainfuck-Interpreter
 
 A basic Brainfuck interpreter
-
-Usage:
+***
+## Usage
 scala Interpreter file [initial memory] [memory increment]
 
-initial memory - This is the amount of memory, in bytes, initially allocated for your application.
+initial memory - This is the amount of memory, in bytes, initially allocated for your application.<br>
 memory increment - This is the amount of memory, in bytes, that your application allocates once it has reached it's capacity.
 
 ## Examples
-
 This just runs jabh.bf.<br>
 scala Interpreter examples/jabh.bf
 
