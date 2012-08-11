@@ -12,6 +12,7 @@ class BytePtr(var size : Int = 1, var sizeIncrement : Int = 1) {
     b.put(buf)
     b.position(pos)
     buf = b
+    println(size)
   }
 
   /**
@@ -30,8 +31,7 @@ class BytePtr(var size : Int = 1, var sizeIncrement : Int = 1) {
     */
   def ++ {
     pos += 1
-    if (2 * pos > size - 1)
-      resize
+    if (pos >= size) resize
     buf.position(pos)
   }
 
